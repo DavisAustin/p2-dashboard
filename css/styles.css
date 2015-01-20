@@ -1,12 +1,21 @@
-/* Profile */
+/******************** 
+Profile 
+*********************/
 
 .profile {
 	background: orange;
 }
 
-/* Balance */
+/******************** 
+Balance
+*********************/
 
 .balance h1 {
 	color: orange;
 	font-size: 3em;
 }
+
+/******************** 
+Calendar
+*********************/
+
