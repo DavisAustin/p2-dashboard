@@ -24,13 +24,14 @@ section {
 .color-1,
 .color-2,
 .color-3,
+.color-4,
 .pattern-1,
 .pattern-2,
 .pattern-3, 
 .imagery-1,
 .imagery-2,
 .imagery-3 {
-	border: 1px solid #000;
+
 	float: left;
 	margin: 0 10px;
 	height: 50px;
@@ -57,15 +58,34 @@ h3 {
 	color: #263248;
 }
 
+h4, p {
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+	color: #7E8AA2;
+}
+
+a:hover {
+	color: #FF9800;
+}
+
 .color-1 {
 	background: #FF9800;
+	margin-left: 0;
 }
 
 .color-2 {
-	background: #263248;
+	background: #7E8AA2;
 }
 
 .color-3 {
+	background: #263248;
+}
+
+.color-4 {
 	background: #000;
 }
 
