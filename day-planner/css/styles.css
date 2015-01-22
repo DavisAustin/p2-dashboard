@@ -8,6 +8,7 @@ body {
   background: #263248;
   color: #7E8AA2;
   font-family: 'Montserrat', sans-serif;
+  max-width: 950px;
 }
 
 
@@ -74,4 +75,9 @@ h3 {padding: 0; margin: 0;}
     font-size: .8em;
     color: #fff;
     margin-left: 70px;
+}
+
+.day-planner {
+  color: #FF9800;
+  margin: 8% 0 0 17%;
 }
