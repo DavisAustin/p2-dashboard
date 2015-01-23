@@ -1,0 +1,50 @@
+body {
+  background: #263248;
+}
+
+.wrap {
+  margin: 40px auto;
+  position: relative;
+  width: 200px;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  background: #FF9800;
+  border: 4px solid #FF9800;
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+}
+.circle:hover {
+  background: #BE7200;
+}
+.circle:active {
+  background: #FF9800;
+}
+
+.envelope {
+  height: 0;
+  width: 0;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom: 40px solid white;
+  border-left: 60px solid white;
+  border-right: 60px solid white;
+  border-top: 40px solid transparent;
+  margin: 60px 40px;
+  position: absolute;
+}
+
+.envelope-top {
+  height: 0;
+  width: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-top: 40px solid white;
+  margin: 55px 40px;
+  position: absolute;
+}
+
+
