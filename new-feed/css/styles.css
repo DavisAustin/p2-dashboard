@@ -1,0 +1,164 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+html {
+  background-color: #f5f1e8;
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+}
+
+header {
+  width: 322px;
+  height: 51px;
+  background-color:  #FF9800;
+  display: table;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+}
+
+header span {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  cursor: default;
+}
+
+header span:first-child,
+header span:last-child {
+  width: 56px;
+  font-family: entypo;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+header span:first-child:hover,
+header span:last-child:hover {
+  background-color: #f3625b;
+}
+
+header span.first {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+header span:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+main {
+  width: 322px;
+  height: 51px;
+  background-color:  #7E8AA2;
+  display: table;
+  font-size: 15px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  margin-top: 9px;
+}
+
+main label {
+  width: 33.3%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+}
+
+main label:hover {
+  background-color: #263248;
+}
+
+main label.first {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+main label:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+input {
+  appearance: none;
+  display: none;
+}
+
+input:checked + label {
+  background-color:   #263248;
+}
+
+.first::after {
+  margin-left: -28px!important;
+}
+
+input:checked + label::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 10px 8.5px 0 8.5px;
+  border-color: #263248 transparent transparent transparent;
+  position: absolute;
+  margin-top: 35px;
+  margin-left: -34px;
+}
+
+.body {
+  background-color: #fff;
+  height: 85px;
+  width: 322px;
+  margin-top: 21px;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14.5px;
+  color: #000;
+  font-weight: bold;
+}
+
+.body img {
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
+  margin-top: 13px;
+  margin-left: 13px;
+}
+
+body div.t {
+  margin-top: -65px;
+  margin-left: 93px;
+}
+
+body span.name {
+  user-select: initial;
+}
+
+body span.forward {
+  color: #e5e5e5;
+  margin-left: 106px;
+  font-family: entypo;
+  font-size: 13px;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+body div.b {
+  margin-left: 93px;
+  color: #b5b5b5;
+  font-size: 11px;
+  margin-top: 4px;
+  letter-spacing: -0.6px;
+  width: 200px;
+  user-select: initial;
+}
