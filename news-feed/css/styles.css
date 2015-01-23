@@ -13,6 +13,8 @@ body {
   top: 50%;
   left: 50%;
   transform:translate(-50%,-50%);
+  margin-top: 4%;
+  background: #263248;
 }
 
 header {
@@ -43,7 +45,7 @@ header span:last-child {
 
 header span:first-child:hover,
 header span:last-child:hover {
-  background-color: #f3625b;
+  background-color: #BE7200;
 }
 
 header span.first {
